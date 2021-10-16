@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guessing Number</string>
+    <string name="guess_what_number_is">Guess what number is</string>
+    <string name="send">Send</string>
+    <string name="new_game">New Game</string>
+    <string name="choose_one_number_between_1_and_50">Choose one number between 1 and 50</string>
+    <string name="hint">Hint</string>
+    <string name="too_low">Too low</string>
+    <string name="too_high">Too high</string>
+    <string name="congratulations" id="congratulations">Congratulations!</string>
+</resources>
