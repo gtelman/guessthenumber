@@ -8,4 +8,5 @@
     <string name="too_low">Too low</string>
     <string name="too_high">Too high</string>
     <string name="congratulations" id="congratulations">Congratulations!</string>
+    <string name="empty_field">Empty field</string>
 </resources>
