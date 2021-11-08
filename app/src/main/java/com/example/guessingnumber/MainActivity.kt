@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         checkAnswerButton()
     }
 
-    private fun createRandomNumber(): Int {
+     fun createRandomNumber(): Int {
 
         return (1..50).random()
     }

@@ -32,10 +32,10 @@ class ExampleUnitTest {
 
     @Test
     fun checkIfRandomNumberIsValid() {
-        `when`(guessTheNumber.randomNumber()).thenReturn(getRandomNumber())
+        `when`(guessTheNumber.createRandomNumber()).thenReturn(getRandomNumber())
 
         assertEquals(9, getRandomNumber())
-        assertNotNull(guessTheNumber.randomNumber())
+        assertNotNull(guessTheNumber.createRandomNumber())
     }
 /*
     @Test
