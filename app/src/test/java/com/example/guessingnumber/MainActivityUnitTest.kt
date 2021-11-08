@@ -1,16 +1,13 @@
 package com.example.guessingnumber
 
 import org.junit.Test
-
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.runner.RunWith
 import org.mockito.Mock
-import org.mockito.Mockito
 import org.mockito.Mockito.*
 import org.mockito.MockitoAnnotations
 import org.mockito.junit.MockitoJUnitRunner
-import java.util.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -20,7 +17,7 @@ import java.util.*
 
 
 @RunWith(MockitoJUnitRunner::class)
-class ExampleUnitTest {
+class MainActivityUnitTest {
 
     @Mock
     private lateinit var guessTheNumber: MainActivity
@@ -37,17 +34,4 @@ class ExampleUnitTest {
         assertEquals(9, getRandomNumber())
         assertNotNull(guessTheNumber.createRandomNumber())
     }
-/*
-    @Test
-    fun checkCorrectTheNumber() {
-    }
-
-    @Test
-    fun shouldFailOnNotANumber() {
-    }
-
-    @Test
-    fun shouldFailOnEmptyField() {
-    }
- */
 }

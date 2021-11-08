@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun checkNumberInput() {
+    private fun checkNumberInput() {
         val numberChosen = binding.editTextNumber.text
         val hint = binding.hintText
         if (numberChosen.isNotEmpty()) {
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun checkAnswer() {
+    private fun checkAnswer() {
         val numberChosen = binding.editTextNumber.text
         val hint = binding.hintText
 
